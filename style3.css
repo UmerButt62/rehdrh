@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6a88, #ff99ac);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 30px 60px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+nav ul li {
+    cursor: pointer;
+    font-weight: 500;
+    color: #000;
+}
+.buttons button {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.login {
+    background: rgba(255,255,255,0.4);
+}
+
+.register {
+    background: #ff4d6d;
+    color: #fff;
+}
+
+/* Hero Section */
+.content {
+    margin-top: 80px;
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.content p {
+    color: #222;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Play Button */
+.play {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.play .line {
+    width: 40px;
+    height: 3px;
+    background: #000;
+}
+
+.play-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
